@@ -34,6 +34,32 @@
     <!-- Rectangle 2 -->
 
     <View
+        android:id="@+id/retangulologinsombra"
+        android:layout_width="328dp"
+        android:layout_height="283dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/sombra"
+        android:elevation="70dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ciruclo" />
+
+    <View
+        android:id="@+id/retangulologinsombra2"
+        android:layout_width="328dp"
+        android:layout_height="283dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/sombra"
+        android:elevation="70dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ciruclo" />
+
+    <View
         android:id="@+id/retangulologin"
         android:layout_width="328dp"
         android:layout_height="283dp"
