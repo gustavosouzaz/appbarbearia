@@ -7,8 +7,10 @@
     android:background="@color/azul"
     tools:context=".MainActivity">
 
+
+    <!-- Ellipse 1 -->
     <View
-        android:id="@+id/ellipse_1"
+        android:id="@+id/ciruclo"
         android:layout_width="530dp"
         android:layout_height="530dp"
         android:layout_alignParentLeft="true"
@@ -23,13 +25,27 @@
         android:id="@+id/imageView"
         android:layout_width="300dp"
         android:layout_height="300dp"
-        android:layout_marginStart="49dp"
+        android:layout_marginStart="53dp"
         android:layout_marginTop="15dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logoapp" />
 
-    <!-- Ellipse 1 -->
+    <!-- Rectangle 2 -->
+
+    <View
+        android:id="@+id/retangulologin"
+        android:layout_width="328dp"
+        android:layout_height="283dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="88dp"
+        android:background="@drawable/retangulologin"
+        android:elevation="70dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ciruclo" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
