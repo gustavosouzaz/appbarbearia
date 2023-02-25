@@ -9,6 +9,7 @@
 
 
     <!-- Ellipse 1 -->
+
     <View
         android:id="@+id/ciruclo"
         android:layout_width="530dp"
@@ -16,7 +17,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="-68dp"
-        android:layout_marginTop="-180dp"
+        android:layout_marginTop="-200dp"
         android:background="@drawable/circulo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -26,12 +27,20 @@
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:layout_marginStart="53dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="-7dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logoapp" />
 
-    <!-- Rectangle 2 -->
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="200dp"
+        android:text="Button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/retangulologin" />
 
     <View
         android:id="@+id/retangulologinsombra"
@@ -39,8 +48,8 @@
         android:layout_height="283dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="32dp"
         android:background="@drawable/sombra"
         android:elevation="70dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -52,8 +61,8 @@
         android:layout_height="283dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="32dp"
         android:background="@drawable/sombra"
         android:elevation="70dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -65,8 +74,8 @@
         android:layout_height="283dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="88dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/retangulologin"
         android:elevation="70dp"
         app:layout_constraintStart_toStartOf="parent"
