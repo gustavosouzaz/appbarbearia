@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
 
+
     <!-- Ellipse 1 -->
 
     <View
@@ -31,6 +32,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logoapp" />
+
+    <!-- Retangulo do Login -->
 
     <View
         android:id="@+id/retangulologinsombra"
@@ -70,41 +73,49 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ciruclo" />
 
+    <!-- Campo Email -->
     <EditText
-        android:id="@+id/editTextTextEmailAddress4"
-        android:layout_width="290dp"
+        android:id="@+id/campoemail"
+        android:layout_width="305dp"
         android:layout_height="48dp"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="15dp"
         android:layout_marginTop="65dp"
         android:background="@drawable/campoemail"
         android:ems="10"
-        android:hint="E-mail"
+        android:hint=" E-mail"
         android:inputType="textEmailAddress"
+        android:drawableLeft="@drawable/baseline_email_24"
+        android:paddingLeft="4dp"
         app:layout_constraintStart_toStartOf="@+id/retangulologin"
         app:layout_constraintTop_toTopOf="@+id/retangulologin" />
 
-    <EditText
-        android:id="@+id/editTextTextPassword2"
-        android:layout_width="290dp"
+    <!-- Campo senha -->
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/camposenha"
+        android:layout_width="305dp"
         android:layout_height="48dp"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="15dp"
         android:layout_marginTop="30dp"
-        android:ems="10"
-        android:hint="Senha"
-        android:inputType="textPassword"
         android:background="@drawable/campoemail"
+        android:ems="10"
+        android:hint=" Senha"
+        android:inputType="textPassword"
+        android:paddingLeft="4dp"
+        android:drawableLeft="@drawable/icone_senha_cadeado"
+        android:paddingRight="13dp"
         app:layout_constraintStart_toStartOf="@+id/retangulologin"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress4" />
+        app:layout_constraintTop_toBottomOf="@+id/campoemail" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="167dp"
+        android:layout_width="175dp"
         android:layout_height="48dp"
-        android:layout_marginStart="80dp"
-        android:layout_marginTop="38dp"
-        android:text="Button"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="35dp"
+        android:backgroundTint="#EF6A70 "
+        android:text="Entrar"
         app:layout_constraintStart_toStartOf="@+id/retangulologin"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2" />
+        app:layout_constraintTop_toBottomOf="@+id/camposenha" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
