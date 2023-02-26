@@ -41,7 +41,7 @@
         android:layout_marginStart="48dp"
         android:layout_marginTop="32dp"
         android:background="@drawable/sombra"
-        android:elevation="70dp"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ciruclo" />
 
@@ -54,7 +54,7 @@
         android:layout_marginStart="48dp"
         android:layout_marginTop="32dp"
         android:background="@drawable/sombra"
-        android:elevation="70dp"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ciruclo" />
 
@@ -67,9 +67,31 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/retangulologin"
-        android:elevation="70dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ciruclo" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="247dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="82dp"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        app:layout_constraintStart_toStartOf="@+id/retangulologin"
+        app:layout_constraintTop_toTopOf="@+id/retangulologin" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="247dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="@+id/retangulologin"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
